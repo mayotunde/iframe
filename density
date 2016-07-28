@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title></title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+
+</head>
+<body>
+
+
+</head>
+<body>
+
+<style>
+ .legend label,
+.legend span {
+  display: block;
+  float: left;
+  height:15px;
+  width:30%;
+  margin-right:5px;
+  border: 1px solid #fff;
+        }
+</style>
+<div id='legend' style='display:none;'>
+  <strong>Population Density(persons per sq/km</strong>
+	<ul class= 'legend labels'>
+   <span style='background:#FED976;'></span>3-69</li><br>
+    <span style='background:#e9b50b;'></span>70-149</li><br>
+      <span style='background:#ea7;'></span>>150</li><br>
+    		</ul>
+        <div class='legend-source'>Source: <a href="www.mapsnigeriainitiative.wordpress.com">mapsnigeriainitiative</a></div>
+</div>
+
+<div id='map'style='width:700px;height:500px'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoibWF5b3R1bmRlIiwiYSI6IlpFM1Jmck0ifQ.13TB14FKWB328q1q7eEZUQ';
+  var map = L.mapbox.map('map', 'mapbox.streets');
+
+L.mapbox.styleLayer('mapbox://styles/mayotunde/cir6m8q1p0004chnmhen4lmm3').addTo(map);
+
+  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+</script>
+
+</body>
+</html>
+
+
+
+
