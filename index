@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' /> 
+
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.13.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.13.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+<body style='background:#eeeeee;'>
+
+<h2 style='padding:15px;background:#594;color:#fff;'> Demographics West Africa region</h2>
+
+<div style='position:absolute;background:#ae8;width:380px;height:490px;border:2px solid green;'>
+<p style='color:#4d4d4d'> This website contains choropleth maps <br>
+that display the current trend from UN 2015 estimated figures of the
+demography of this region.<br> Maps illustrated are:<br><br>
+
+
+<p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/admin" target="someFrame">-Administrative boundaries of the countries</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/populationWA" target="someFrame">-Population gradient</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/annual_growth" target="someFrame">-Estimated Annual growth for the region</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/density" target="someFrame">-Population Density per sqkm</em></strong></a></p>
+<p><small style='color:red'>Check the layer boxes to load the respective maps</small></p><br>
+
+<p><small><strong>Data Retrieved from "https://en.wikipedia.org/w/index.ph
+p?title=List_of_African_countries_by_population&old
+id=728856588</p></small></strong>
+
+</div>
+
+<div style='position:absolute;float:right;left:1120px;width:220px;background:#fff;'> 
+<p style='font-family:metrostyle';> West Africa has one of the highest population growth rates<br> 
+of all the sub-regions of the World meanwhile the region also<br>
+boast of countries with some of the lowest GDPs in the World.</p>
+
+</div>
+
+<p style='position:absolute;bottom:0px;padding:5px;background:#594;width:1320px;color:#fff'><small>ISO codes and countries CMR Cameroon NGR Nigeria 
+GAB Gabon GHA Ghana BEN Benin TCD Chad LBR Liberia MLI Mali MRT Mauritania NER Niger CIV Ivory Coast GAM Gambia 
+SEN Senegal GNQ E/Guinea STP Sao Tome TGO Togo BFA Burkina Faso CPV Cape Verde SLE Sierra Leone GNB Guinea Bissau GIN Guinea</small></p>
+
+
+<iframe name="someFrame" id="someFrame"style='position:absolute;right:250px;width:700px;height:490px;float:right;border:4px solid green;'></iframe>
+
+
+</body>
+
+</html>
