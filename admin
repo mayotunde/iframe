@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Custom legend</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+</head>
+<body>
+
+<style>
+ .legend label,
+.legend span {
+  display: block;
+  float: left;
+  height:15px;
+  width:30%;
+  margin-right:5px;
+  border: 1px solid #fff;
+        }
+</style>
+<div id='legend' style='display:none;'>
+  <p2><strong style='background:red;color:#fff'> ISO codes Interpretation</strong></p2><br>
+MLI Mali  NER Niger NGR Nigeria<br>
+BEN Benin TGO Togo GHA Ghana<br>
+MRT Mauritania BFA B/Faso CIV Ivory Coast<br>
+SLE S/Leone GIN Guinea LBR Liberia<br>
+GNB Guinea Bissau GMB Gambia SEN Senegal<br>
+CPV Cape Verde CMR Cameroun TCD Chad<br>
+GNQ Equitorial Guinea GAB Gabon<br>
+STP Sao Tome
+        <div class='legend-source'>Source: <a href="www.mapsnigeriainitiative.wordpress.com">mapsnigeriainitiative</a></div>
+</div>
+<div id='map'style='width:700px;height:500px'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoibWF5b3R1bmRlIiwiYSI6IlpFM1Jmck0ifQ.13TB14FKWB328q1q7eEZUQ';
+  var map = L.mapbox.map('map', 'mapbox.streets');
+
+L.mapbox.styleLayer('mapbox://styles/mayotunde/cir5skf3o0005cjlydpp7azem').addTo(map);
+
+  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+</script>
+
+</body>
+</html>
+
