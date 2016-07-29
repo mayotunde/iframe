@@ -11,9 +11,12 @@
     </head>
 <body style='background:#eeeeee;'>
 
-<h2 style='padding:15px;background:#594;color:#fff;'> Demographics West Africa region</h2>
 
-<div style='position:absolute;background:#ae8;width:380px;height:490px;border:2px solid green;'>
+<div style='position:absolute;Top: 5px;padding:15px;background:#594;color:#fff;width:1300px;font-family:Tahoma;font-size:27;'>
+<p1 ><strong> Demographics West Africa </strong></p1>
+<a href="http://www.auplod.com/i-ulodpa83893.html"><img src="http://www.auplod.com/u/ulodpa83893.gif" alt="Image" border="0" /></a>
+</div>
+<div style='position:absolute;background:#ae8;width:380px;height:490px;border:2px solid green;top:95px;'>
 <p style='color:#4d4d4d'> This website contains choropleth maps <br>
 that display the current trend from UN 2015 estimated figures of the
 demography of this region.<br> Maps illustrated are:<br><br>
@@ -23,7 +26,7 @@ demography of this region.<br> Maps illustrated are:<br><br>
 <p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/populationWA" target="someFrame">-Population gradient</a></p>
 <p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/annual_growth" target="someFrame">-Estimated Annual growth for the region</a></p>
 <p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/density" target="someFrame">-Population Density per sqkm</em></strong></a></p>
-<p><small style='color:red'>Click on any of the topics above to load the respective map</small></p><br>
+<p><small style='color:red'>Cick any of the subtopics to view the respective map</small></p><br>
 
 <p><small><strong>Data Retrieved from "https://en.wikipedia.org/w/index.ph
 p?title=List_of_African_countries_by_population&old
@@ -31,20 +34,22 @@ id=728856588</p></small></strong>
 
 </div>
 
-<div style='position:absolute;float:right;left:1120px;width:220px;background:#fff;'> 
+<div style='position:absolute;float:right;left:1120px;width:220px;height:490px;background:#ae7;top:95px;'> 
 <p style='font-family:metrostyle';> West Africa has one of the highest population growth rates<br> 
 of all the sub-regions of the World meanwhile the region also<br>
-boast of countries with some of the lowest GDPs in the World.</p>
-<img src="https://lh3.googleusercontent.com/jY9fWF3HjY1NPeluF6LQDyDRL2zqGevA_IW0jKu5Z6GqsiSw6mHE_oCNDvGV_PnL_G6JFZKzZDHNqSHd6wS9F12GHCGpPiDU2yF2RK3ELBYotYSNMPOVUnyyobGCGKDA1Rc3Xga6vaxbx0MN3YR2WVvwW6avdpXMUZdZNAtBVPlV0famTCd-dXeHDmr53KNPQQNWLLM5Wgp3rUYvxbINhvTCnMlaUeHrp0Hab5BJaTB6SbabPpnPNPT1X3uvz6nQs3PgSbbG2pevw4Yn91DQI_kTuIcf7fmS39MdOm2LSFpB0wHgEvvlloLJfpXw0TvGjBpgZFeA8pIdmeoAr6q4aonVVkydr3WMN8v6DJ2DzFcfgYUHalxrDPoJTiZoh0U-qNTeUxc-kpXca8xlmO2EpZg4_SFbdZUU6ZNgQBiJoP99IwZ03Qzvp_0bdEbmigdzY8RLwP5riKHgotnXY4E71qS8yzlD8JvK4bK5ojBzvZvXlnfXDo0y82a8LJCHqjxbK3RbKDYZybb72d31gc-bpx6m1sKT24RnHZp2hq9FVbs=w80-h50-no" /><br>
+boast of countries with some of the lowest GDPs in the World.</p><br>
+<img src="https://lh3.googleusercontent.com/cysBcVK1xOKttg87EiHzYZavhcNn2T-JEHTlHdvOzstQ_hHWtDw4leiLnJWvx6lrkFi1t9IFWdM2Z2w5ljaxmpdm6Id0MF4O-vXNCUDC4S7xsaVjHnS9mcvORmu8lAp531wbbWuBqirZv1Y9yRH1QNkchN4giRptpOBiU3yrKY-tn_Q1YsoSQhmYrjqdoBfCSVC4ArVphQFLEgmtn3pU8SC1VvTMaTTFmdaqabVqPJXi40hngshCVWos7Rj-92sTsfAz4bHMK0d0DFNGKYCJ6k5VAm7UJ7_QTb-1X6Xf2ohZQ0RyCc_Eu85gE-CMlAT3kniT4giSVTSLGxpmXtIfZkObp1KeGZFtDKfQfjGa426sFvcXAa-h0OFgNDOvZsvrbvqajnA_s2_xYIdlNdTT7KtiTiW6csaGjaGs0ufQc4KK7UEeVrkWK6J4ZfXiCHxQNG66i4ES-OJMKkHUSwKYAJpDDvb-8Qcfi4u9yscpH0x2vOFVZh-dcL7sC-r5ru42fld3BVUdxeJ1AJamr45yAS2HDBcCW_f7HAAyvMd4DJFMvEFWZ6Il4-DGKhvmc5FGKqB07XGuPWOf3uMKsIpsxrIYM03GJg=w170-h140-no" /><br>
+<img src="https://lh3.googleusercontent.com/jY9fWF3HjY1NPeluF6LQDyDRL2zqGevA_IW0jKu5Z6GqsiSw6mHE_oCNDvGV_PnL_G6JFZKzZDHNqSHd6wS9F12GHCGpPiDU2yF2RK3ELBYotYSNMPOVUnyyobGCGKDA1Rc3Xga6vaxbx0MN3YR2WVvwW6avdpXMUZdZNAtBVPlV0famTCd-dXeHDmr53KNPQQNWLLM5Wgp3rUYvxbINhvTCnMlaUeHrp0Hab5BJaTB6SbabPpnPNPT1X3uvz6nQs3PgSbbG2pevw4Yn91DQI_kTuIcf7fmS39MdOm2LSFpB0wHgEvvlloLJfpXw0TvGjBpgZFeA8pIdmeoAr6q4aonVVkydr3WMN8v6DJ2DzFcfgYUHalxrDPoJTiZoh0U-qNTeUxc-kpXca8xlmO2EpZg4_SFbdZUU6ZNgQBiJoP99IwZ03Qzvp_0bdEbmigdzY8RLwP5riKHgotnXY4E71qS8yzlD8JvK4bK5ojBzvZvXlnfXDo0y82a8LJCHqjxbK3RbKDYZybb72d31gc-bpx6m1sKT24RnHZp2hq9FVbs=w80-h50-no" />
 <small><a href="http://mapsnigeriainitiative.wordpress.com">mapsNI</a><small>
+
 </div>
 
-<p style='position:absolute;bottom:0px;padding:5px;background:#594;width:1320px;color:#fff'><small>ISO codes and countries CMR Cameroon NGR Nigeria 
+<p style='position:absolute;bottom:3px;padding:10px;background:#594;width:1320px;color:#fff'><small>ISO codes and countries CMR Cameroon NGR Nigeria 
 GAB Gabon GHA Ghana BEN Benin TCD Chad LBR Liberia MLI Mali MRT Mauritania NER Niger CIV Ivory Coast GAM Gambia 
 SEN Senegal GNQ E/Guinea STP Sao Tome TGO Togo BFA Burkina Faso CPV Cape Verde SLE Sierra Leone GNB Guinea Bissau GIN Guinea</small></p>
 
 
-<iframe name="someFrame" id="someFrame"style='position:absolute;right:250px;width:700px;height:490px;float:right;border:4px solid green;'></iframe>
+<iframe name="someFrame" id="someFrame"style='position:absolute;right:250px;width:700px;height:490px;float:right;border:4px solid green;top:95px;'></iframe>
 
 
 </body>
