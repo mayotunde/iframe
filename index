@@ -15,7 +15,7 @@
 <div style='position:absolute;background:#ae8;width:380px;height:490px;border:2px solid green;top:95px;'>
 <p style='color:#4d4d4d'> This website contains choropleth maps <br>
 that display the current trend from UN 2015 estimated figures of the
-demography of this region.<br> Maps illustrated are:<br><br>
+demography of this region.<br> Maps illustrated are:</p><br><br>
 
 
 <p><a href="http://htmlpreview.github.io/?https://github.com/mayotunde/iframe/blob/master/admin" target="someFrame">-Administrative boundaries of the countries</a></p>
