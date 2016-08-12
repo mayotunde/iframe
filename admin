@@ -41,6 +41,8 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWF5b3R1bmRlIiwiYSI6IlpFM1Jmck0ifQ.13TB14FKWB
 L.mapbox.styleLayer('mapbox://styles/mayotunde/cir5skf3o0005cjlydpp7azem').addTo(map);
 
   map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+  
+  map.scrollZoom.disable();
 </script>
 
 </body>
