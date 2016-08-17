@@ -36,7 +36,7 @@ STP Sao Tome
 
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoibWF5b3R1bmRlIiwiYSI6IlpFM1Jmck0ifQ.13TB14FKWB328q1q7eEZUQ';
-  var map = L.mapbox.map('map', 'mapbox.streets');
+  var map = L.mapbox.map('map').setView([2.6, 2.8],4);
 
 L.mapbox.styleLayer('mapbox://styles/mayotunde/cir5skf3o0005cjlydpp7azem').addTo(map);
 
