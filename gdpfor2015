@@ -9,7 +9,7 @@
 
 </head>
 <body>
-
+<h4 style='color:#000;font-family:Open Sans;padding:10px;width:600px;border: 1px solid black;background:#FED976'><em> 2015 Gross Domestic Product by PPA<small> West Africa; source:world bank</small></em></h4>
 <style>
  .legend label,
 .legend span {
@@ -31,13 +31,13 @@
         <div class='legend-source'>Source: <a href="www.mapsnigeriainitiative.wordpress.com">mapsnigeriainitiative</a></div>
 </div>
 
-<div id='map'style='width:00px;height:330px'></div>
+<div id='map'style='width:600px;height:330px'></div>
 
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoibWF5b3R1bmRlIiwiYSI6IlpFM1Jmck0ifQ.13TB14FKWB328q1q7eEZUQ';
   var map = L.mapbox.map('map', 'mapbox.streets');
 
-L.mapbox.styleLayer('mapbox://styles/mayotunde/cis366ocn000dhdnip32khhm3').addTo(map);
+L.mapbox.styleLayer('mapbox://styles/mayotunde/cis36pamg000hhbnhpv5c860t').addTo(map);
 
   map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 </script>
