@@ -22,25 +22,29 @@
         }
 </style>
 <div id='legend' style='display:none;'>
-  <strong>Population Density(persons per sq/km</strong>
+  <strong>GDP by PPA 2015</strong>
 	<ul class= 'legend labels'>
-   <span style='background:#FED976;'></span>3-69</li><br>
-    <span style='background:#e9b50b;'></span>70-149</li><br>
-      <span style='background:#ea7;'></span>>149</li><br>
+   <span style='background:#FED976;'></span>$0-5000</li><br>
+    <span style='background:#f45;'></span>>$5000-10000</li><br>
+      <span style='background:#045A8D;'></span>>$10000</li><br>
     		</ul>
         <div class='legend-source'>Source: <a href="www.mapsnigeriainitiative.wordpress.com">mapsnigeriainitiative</a></div>
 </div>
 
-<div id='map'style='width:700px;height:500px'></div>
+<div id='map'style='width:00px;height:330px'></div>
 
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoibWF5b3R1bmRlIiwiYSI6IlpFM1Jmck0ifQ.13TB14FKWB328q1q7eEZUQ';
   var map = L.mapbox.map('map', 'mapbox.streets');
 
-L.mapbox.styleLayer('mapbox://styles/mayotunde/cir6m8q1p0004chnmhen4lmm3').addTo(map);
+L.mapbox.styleLayer('mapbox://styles/mayotunde/cis366ocn000dhdnip32khhm3').addTo(map);
 
   map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 </script>
+<p style='color:#4d4d4d;font-family:Open Sans Bold;padding:10px;width:550px;background:#eeeeee;border: 1px solid black'>
+<em>Input the name of a country in west africa to view the actual gdp figure for that country.</em>
+</p>
 
+<iframe style='width:500px;height:150px' name="gdp West Africa Query Form" title="gdp West Africa Query Form" src="https://c3ezh284.caspio.com/dp.asp?AppKey=c39d40009f31061241b141c7b754">Sorry, but your browser does not support frames.</iframe>
 </body>
 </html>
